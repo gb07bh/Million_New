@@ -32,16 +32,11 @@
 
 /* Fonts End */
 
-
-
-
-
-
-
 :root {
   --default-font: "Satoshi-Regular";
   --heading-font: "Satoshi-Medium";
   --nav-font: "Satoshi-Medium";
+  --default-font-light: "Satoshi-Light";
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -951,7 +946,7 @@ section,
 
 .banner .info p {
   color: #fff;
-  font-family: 'Satothi-Regular';
+  font-family: var(--default-font-light);
   font-size: 38px;
   margin-bottom: 15px;
   line-height: 1;
